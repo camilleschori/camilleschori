@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
-import myImage from '../assets/my-image.png';
+import myImage from '../assets/my-image.jpg';
 
 const About = () => {
   const expertise = [
@@ -118,7 +118,7 @@ const About = () => {
                 I create comprehensive digital solutions that drive business growth.
               </p>
               <p className="about-description">
-                From React.js and Next.js applications to React Native and Flutter mobile apps, I leverage cutting-edge 
+                From React.js applications to React Native and mobile applications, I leverage cutting-edge 
                 technologies to deliver exceptional user experiences across all platforms.
               </p>
             </div>
