@@ -33,7 +33,7 @@
   font-size: var(--text-4xl);
   font-weight: 700;
   margin-bottom: var(--space-2);
-  background: var(--accent-gradient);
+  background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -78,14 +78,14 @@
 }
 
 .footer-contact-item:hover {
-  color: var(--accent-secondary);
-  background: rgba(15, 126, 255, 0.1);
+  color: var(--primary-light);
+  background: rgba(7, 150, 254, 0.1);
   transform: translateX(5px);
 }
 
 .footer-contact-item svg {
   font-size: var(--text-lg);
-  color: var(--accent-secondary);
+  color: var(--primary-light);
 }
 
 /* Footer Sections */
@@ -114,7 +114,7 @@
   left: 0;
   width: 40px;
   height: 3px;
-  background: var(--accent-gradient);
+  background: var(--gradient-primary);
   border-radius: var(--radius-sm);
 }
 
@@ -141,7 +141,7 @@
 }
 
 .footer-link:hover {
-  color: var(--accent-secondary);
+  color: var(--primary-light);
   transform: translateX(5px);
 }
 
@@ -152,7 +152,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--accent-secondary);
+  background: var(--primary-light);
   transition: width var(--transition-normal);
 }
 
@@ -174,10 +174,10 @@
   justify-content: center;
   width: 48px;
   height: 48px;
-  background: rgba(15, 126, 255, 0.08);
+  background: rgba(7, 150, 254, 0.08);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(15, 126, 255, 0.15);
+  border: 1px solid rgba(7, 150, 254, 0.15);
   border-radius: var(--radius-xl);
   color: var(--text-primary);
   text-decoration: none;
@@ -225,7 +225,7 @@
 /* Footer Bottom */
 .footer-bottom {
   padding: var(--space-8) 0;
-  border-top: 1px solid rgba(15, 126, 255, 0.2);
+  border-top: 1px solid rgba(7, 150, 254, 0.2);
   display: flex;
   justify-content: space-between;
   align-items: center;
