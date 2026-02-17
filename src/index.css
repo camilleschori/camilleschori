@@ -5,36 +5,41 @@
   box-sizing: border-box;
 }
 
-/* ===== Design System Variables ===== */
+/* ===== Design System Variables — OpenClaw-inspired ===== */
 :root {
-  /* Backgrounds */
-  --bg-primary: #0a0a0b;
-  --bg-secondary: #111113;
-  --bg-card: rgba(255, 255, 255, 0.03);
-  --bg-card-hover: rgba(255, 255, 255, 0.06);
-  --bg-glass: rgba(255, 255, 255, 0.05);
+  /* Backgrounds — deeper, richer dark */
+  --bg-primary: #08090a;
+  --bg-secondary: #0d0e10;
+  --bg-card: rgba(255, 255, 255, 0.02);
+  --bg-card-hover: rgba(255, 255, 255, 0.05);
+  --bg-glass: rgba(255, 255, 255, 0.04);
 
-  /* Borders */
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-glass: rgba(255, 255, 255, 0.12);
+  /* Borders — subtler */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-glass: rgba(255, 255, 255, 0.1);
 
   /* Text */
-  --text-primary: rgba(255, 255, 255, 0.92);
-  --text-secondary: rgba(255, 255, 255, 0.55);
-  --text-muted: rgba(255, 255, 255, 0.35);
+  --text-primary: rgba(255, 255, 255, 0.95);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-muted: rgba(255, 255, 255, 0.4);
 
-  /* Accent Colors */
-  --accent: #ff6b35;
-  --accent-glow: rgba(255, 107, 53, 0.15);
-  --accent-hover: #ff8555;
+  /* Accent */
+  --accent: #ff4d4d;
+  --accent-glow: rgba(255, 77, 77, 0.12);
+  --accent-hover: #ff6b6b;
 
   /* Gradient Pair */
-  --coral-bright: #ff6b6b;
-  --cyan-bright: #4ecdc4;
+  --coral-bright: #ff4d4d;
+  --cyan-bright: #00e5cc;
+
+  /* Hero / Accent gradient */
+  --hero-title-start: #f0f4ff;
+  --hero-title-end: #00e5cc;
+  --hero-gradient: linear-gradient(135deg, var(--hero-title-start) 0%, var(--coral-bright) 52%, var(--hero-title-end) 100%);
 
   /* Fonts */
-  --font-mono: 'JetBrains Mono', 'SF Mono', 'Monaco', monospace;
-  --font-body: 'Inter', 'SF Pro Display', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Monaco', 'Consolas', monospace;
+  --font-body: 'Clash Display', system-ui, sans-serif;
 }
 
 /* ===== HTML & Body ===== */
@@ -59,11 +64,11 @@ body {
 a {
   color: var(--coral-bright);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.25s ease;
 }
 
 a:hover {
-  color: var(--cyan-bright);
+  color: var(--accent-hover);
 }
 
 /* ===== Selection ===== */

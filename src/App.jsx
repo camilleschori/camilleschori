@@ -28,7 +28,22 @@ function App() {
   const [activeFilter, setActiveFilter] = useState('all')
   const [showScrollTop, setShowScrollTop] = useState(false)
   const [statsVisible, setStatsVisible] = useState(false)
+  const [copied, setCopied] = useState(false)
   const statsRef = useRef(null)
+
+  const meJson = {
+    name: 'Camille Schori',
+    role: 'Full-Stack Developer',
+    location: 'Erbil, Iraq',
+    experience: '10+ years',
+    company: 'CS-SOFT (Founder & CEO)',
+  }
+
+  const handleCopyJson = () => {
+    navigator.clipboard.writeText(JSON.stringify(meJson, null, 2))
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
+  }
 
   useEffect(() => {
     const handleScroll = () => setShowScrollTop(window.scrollY > 400)
@@ -93,9 +108,30 @@ function App() {
   const percentCount = useCountUp(100, 2000, statsVisible)
   const yearsCount = useCountUp(10, 1600, statsVisible)
 
+  const servicesFeatures = [
+    { icon: 'web', title: 'Web Development', description: 'Full-stack web solutions from frontend to backend. React, Laravel, and modern frameworks. Responsive, fast, and scalable.' },
+    { icon: 'mobile', title: 'Mobile Apps', description: 'Cross-platform mobile apps with React Native. iOS and Android from a single codebase. Push notifications, payments, and more.' },
+    { icon: 'database', title: 'Database & APIs', description: 'Database design, REST APIs, and system integration. MySQL, MongoDB, Firebase. Clean architecture that scales.' },
+    { icon: 'design', title: 'UI/UX Design', description: 'User-centered design and modern interfaces. Pixel-perfect layouts, smooth interactions, and accessible experiences.' },
+    { icon: 'enterprise', title: 'Enterprise Systems', description: 'Custom software for businesses. POS, HR, inventory, CRM. Tailored to your workflow and requirements.' },
+    { icon: 'support', title: 'Consulting & Support', description: 'Technical consulting, code reviews, and ongoing support. 24/7 availability for your peace of mind.' },
+  ]
+
+  const ServiceIcon = ({ name }) => {
+    const icons = {
+      web: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>,
+      mobile: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>,
+      database: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>,
+      design: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>,
+      enterprise: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>,
+      support: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>,
+    }
+    return <span className="service-icon-svg">{icons[name] || null}</span>
+  }
+
   const services = [
     {
-      icon: '🌐',
+      icon: 'web',
       title: 'Web Development',
       description: 'Complete web solutions from frontend to backend',
       price: '$300',
@@ -110,7 +146,7 @@ function App() {
       ],
     },
     {
-      icon: '📱',
+      icon: 'mobile',
       title: 'Mobile Apps',
       description: 'Native and cross-platform mobile applications',
       price: '$2500',
@@ -125,7 +161,7 @@ function App() {
       ],
     },
     {
-      icon: '⚙️',
+      icon: 'enterprise',
       title: 'Systems',
       description: 'Enterprise systems and custom software solutions',
       price: 'Custom',
@@ -188,13 +224,34 @@ function App() {
   ]
 
   const techStack = [
-    'HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'jQuery', 'SASS/SCSS',
-    'PHP', 'Laravel', 'Composer', 'Artisan CLI',
-    'React.js', 'React Native', 'Expo', 'JSX',
-    'MySQL', 'MongoDB', 'Firebase', 'Firestore',
-    'Git', 'GitHub', 'GitHub Actions',
-    'VS Code', 'Postman', 'Chrome DevTools', 'npm/yarn',
-    'REST APIs', 'JSON', 'AJAX', 'Responsive Design',
+    { name: 'HTML5', icon: '📄' },
+    { name: 'CSS3', icon: '🎨' },
+    { name: 'JavaScript', icon: '🟨' },
+    { name: 'Bootstrap', icon: '⚡' },
+    { name: 'jQuery', icon: '🔧' },
+    { name: 'SASS/SCSS', icon: '🎨' },
+    { name: 'PHP', icon: '🐘' },
+    { name: 'Laravel', icon: '🔴' },
+    { name: 'Composer', icon: '📦' },
+    { name: 'React.js', icon: '⚛️' },
+    { name: 'React Native', icon: '📱' },
+    { name: 'Expo', icon: '📱' },
+    { name: 'JSX', icon: '⚛️' },
+    { name: 'MySQL', icon: '🐬' },
+    { name: 'MongoDB', icon: '🍃' },
+    { name: 'Firebase', icon: '🔥' },
+    { name: 'Firestore', icon: '🔥' },
+    { name: 'Git', icon: '📌' },
+    { name: 'GitHub', icon: '🐙' },
+    { name: 'GitHub Actions', icon: '⚙️' },
+    { name: 'VS Code', icon: '💻' },
+    { name: 'Postman', icon: '📮' },
+    { name: 'Chrome DevTools', icon: '🌐' },
+    { name: 'npm/yarn', icon: '📦' },
+    { name: 'REST APIs', icon: '🔌' },
+    { name: 'JSON', icon: '📋' },
+    { name: 'AJAX', icon: '🔄' },
+    { name: 'Responsive Design', icon: '📐' },
   ]
 
   const contactCards = [
@@ -225,6 +282,7 @@ function App() {
             <a href="#hero" className="nav-link" onClick={handleNavClick}>Home</a>
             <a href="#about" className="nav-link" onClick={handleNavClick}>About</a>
             <a href="#services" className="nav-link" onClick={handleNavClick}>Services</a>
+            <a href="#pricing" className="nav-link" onClick={handleNavClick}>Pricing</a>
             <a href="#projects" className="nav-link" onClick={handleNavClick}>Projects</a>
             <a href="#tech" className="nav-link" onClick={handleNavClick}>Tech</a>
             <a href="#contact" className="nav-cta" onClick={handleNavClick}>Get in Touch</a>
@@ -246,6 +304,7 @@ function App() {
       <section className="hero" id="hero">
         <div className="hero-glow" />
         <div className="container">
+          <div className="hero-inner">
           <div className="hero-badge">
             <span className="hero-badge-dot" />
             Full-Stack Developer — Erbil, Iraq
@@ -264,9 +323,49 @@ function App() {
             digital experiences — from web apps and mobile solutions to enterprise systems
             that drive real growth.
           </p>
+
+          {/* me.json — macOS Terminal style */}
+          <div className="me-json-block">
+            <div className="me-json-titlebar">
+              <div className="me-json-window-controls">
+                <span className="wc red" />
+                <span className="wc yellow" />
+                <span className="wc green" />
+              </div>
+              <span className="me-json-window-title">me.json — bash</span>
+              <button
+                className="me-json-copy"
+                onClick={handleCopyJson}
+                aria-label="Copy JSON"
+                title={copied ? 'Copied!' : 'Copy'}
+              >
+                {copied ? (
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                ) : (
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                  </svg>
+                )}
+              </button>
+            </div>
+            <pre className="me-json-content">
+{`{
+  "name": "Camille Schori",
+  "role": "Full-Stack Developer",
+  "location": "Erbil, Iraq",
+  "experience": "10+ years",
+  "company": "CS-SOFT (Founder & CEO)"
+}`}
+            </pre>
+          </div>
+
           <div className="hero-buttons">
             <a href="#contact" className="btn-primary">Get In Touch</a>
             <a href="#about" className="btn-secondary">Learn More</a>
+          </div>
           </div>
         </div>
       </section>
@@ -356,11 +455,33 @@ function App() {
         </div>
       </section>
 
-      {/* ===== SERVICES ===== */}
+      {/* ===== SERVICES — OpenClaw style ===== */}
       <section id="services">
         <div className="container">
           <div className="section-header">
-            <div className="section-marker">⟩ What I Do</div>
+            <div className="section-marker">⟩ Services</div>
+            <h2 className="section-title">What It Does</h2>
+          </div>
+
+          <div className="services-features-grid">
+            {servicesFeatures.map((item, i) => (
+              <div className="services-features-card" key={i}>
+                <div className="services-features-icon">
+                  <ServiceIcon name={item.icon} />
+                </div>
+                <h3 className="services-features-title">{item.title}</h3>
+                <p className="services-features-desc">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ===== PRICING ===== */}
+      <section id="pricing">
+        <div className="container">
+          <div className="section-header">
+            <div className="section-marker">⟩ Pricing</div>
             <h2 className="section-title">Built for your business.</h2>
             <p className="section-subtitle">
               Professional development services tailored to bring your ideas to life
@@ -370,7 +491,9 @@ function App() {
           <div className="services-grid">
             {services.map((s, i) => (
               <div className="service-card" key={i}>
-                <div className="service-icon">{s.icon}</div>
+                <div className="service-icon">
+                  <ServiceIcon name={s.icon} />
+                </div>
                 <h3>{s.title}</h3>
                 <p>{s.description}</p>
                 <ul className="service-features">
@@ -435,21 +558,26 @@ function App() {
         </div>
       </section>
 
-      {/* ===== TECH STACK ===== */}
+      {/* ===== TECH STACK — Works With Everything style ===== */}
       <section id="tech">
         <div className="container">
           <div className="section-header">
-            <div className="section-marker">⟩ Tech Stack</div>
-            <h2 className="section-title">Modern tools. Proven results.</h2>
-            <p className="section-subtitle">
-              Technologies and tools I work with to create modern, responsive applications
-            </p>
+            <div className="section-marker">⟩ Works With Everything</div>
+            <h2 className="section-title">Tech &amp; Tools</h2>
           </div>
 
           <div className="tech-tags">
             {techStack.map((t, i) => (
-              <span className="tech-tag" key={i}>{t}</span>
+              <div className="tech-tag" key={i}>
+                <span className="tech-tag-icon">{t.icon}</span>
+                <span className="tech-tag-name">{t.name}</span>
+              </div>
             ))}
+          </div>
+
+          <div className="tech-links">
+            <a href="#projects" className="tech-link">View projects →</a>
+            <a href="#contact" className="tech-link">Get in touch →</a>
           </div>
         </div>
       </section>
@@ -465,20 +593,6 @@ function App() {
               Tell us about your project — let's transform your vision into powerful digital
               solutions that drive results.
             </p>
-
-            <div className="cta-buttons">
-              <a href="mailto:info@camilleschori.com" className="btn-primary">
-                Email Us
-              </a>
-              <a
-                href="https://wa.me/9647729444377"
-                className="btn-secondary"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                WhatsApp
-              </a>
-            </div>
 
             <div className="contact-grid">
               {contactCards.map((c, i) =>
@@ -518,6 +632,7 @@ function App() {
             <nav className="footer-nav">
               <a href="#about" className="footer-link">About</a>
               <a href="#services" className="footer-link">Services</a>
+              <a href="#pricing" className="footer-link">Pricing</a>
               <a href="#projects" className="footer-link">Projects</a>
               <a href="#tech" className="footer-link">Tech</a>
               <a href="#contact" className="footer-link">Contact</a>
