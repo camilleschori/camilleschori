@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
+import { MdEmail, MdPhone, MdLocationOn, MdPublic, MdPhoneIphone, MdStorage, MdPalette, MdBusiness, MdSupportAgent } from 'react-icons/md'
+import { FaWhatsapp, FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaFacebookF } from 'react-icons/fa'
 import { projects, projectCategories } from './data/projects'
 import './App.css'
 
@@ -119,12 +121,12 @@ function App() {
 
   const ServiceIcon = ({ name }) => {
     const icons = {
-      web: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>,
-      mobile: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>,
-      database: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>,
-      design: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>,
-      enterprise: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>,
-      support: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>,
+      web: <MdPublic />,
+      mobile: <MdPhoneIphone />,
+      database: <MdStorage />,
+      design: <MdPalette />,
+      enterprise: <MdBusiness />,
+      support: <MdSupportAgent />,
     }
     return <span className="service-icon-svg">{icons[name] || null}</span>
   }
@@ -224,46 +226,46 @@ function App() {
   ]
 
   const techStack = [
-    { name: 'HTML5', icon: '📄' },
-    { name: 'CSS3', icon: '🎨' },
-    { name: 'JavaScript', icon: '🟨' },
-    { name: 'Bootstrap', icon: '⚡' },
-    { name: 'jQuery', icon: '🔧' },
-    { name: 'SASS/SCSS', icon: '🎨' },
-    { name: 'PHP', icon: '🐘' },
-    { name: 'Laravel', icon: '🔴' },
-    { name: 'Composer', icon: '📦' },
-    { name: 'React.js', icon: '⚛️' },
-    { name: 'React Native', icon: '📱' },
-    { name: 'Expo', icon: '📱' },
-    { name: 'JSX', icon: '⚛️' },
-    { name: 'MySQL', icon: '🐬' },
-    { name: 'MongoDB', icon: '🍃' },
-    { name: 'Firebase', icon: '🔥' },
-    { name: 'Firestore', icon: '🔥' },
-    { name: 'Git', icon: '📌' },
-    { name: 'GitHub', icon: '🐙' },
-    { name: 'GitHub Actions', icon: '⚙️' },
-    { name: 'VS Code', icon: '💻' },
-    { name: 'Postman', icon: '📮' },
-    { name: 'Chrome DevTools', icon: '🌐' },
-    { name: 'npm/yarn', icon: '📦' },
-    { name: 'REST APIs', icon: '🔌' },
-    { name: 'JSON', icon: '📋' },
-    { name: 'AJAX', icon: '🔄' },
-    { name: 'Responsive Design', icon: '📐' },
+    { name: 'HTML5', color: '#E34F26' },
+    { name: 'CSS3', color: '#1572B6' },
+    { name: 'JavaScript', color: '#F7DF1E' },
+    { name: 'Bootstrap', color: '#7952B3' },
+    { name: 'jQuery', color: '#0769AD' },
+    { name: 'SASS/SCSS', color: '#CC6699' },
+    { name: 'PHP', color: '#777BB4' },
+    { name: 'Laravel', color: '#FF2D20' },
+    { name: 'Composer', color: '#885630' },
+    { name: 'React.js', color: '#61DAFB' },
+    { name: 'React Native', color: '#61DAFB' },
+    { name: 'Expo', color: '#4630EB' },
+    { name: 'JSX', color: '#61DAFB' },
+    { name: 'MySQL', color: '#4479A1' },
+    { name: 'MongoDB', color: '#47A248' },
+    { name: 'Firebase', color: '#FFCA28' },
+    { name: 'Firestore', color: '#FFCA28' },
+    { name: 'Git', color: '#F05032' },
+    { name: 'GitHub', color: '#f0f6fc' },
+    { name: 'GitHub Actions', color: '#2088FF' },
+    { name: 'VS Code', color: '#007ACC' },
+    { name: 'Postman', color: '#FF6C37' },
+    { name: 'Chrome DevTools', color: '#1a73e8' },
+    { name: 'npm/yarn', color: '#CB3837' },
+    { name: 'REST APIs', color: '#00A4EF' },
+    { name: 'JSON', color: '#8B949E' },
+    { name: 'AJAX', color: '#00A4EF' },
+    { name: 'Responsive Design', color: '#61DAFB' },
   ]
 
   const contactCards = [
-    { icon: '✉️', label: 'Email', value: 'info@camilleschori.com', link: 'mailto:info@camilleschori.com' },
-    { icon: '📞', label: 'Phone', value: '+964 772 944 4377', link: 'tel:+9647729444377' },
-    { icon: '📍', label: 'Location', value: 'Erbil, Kurdistan, Iraq', link: null },
-    { icon: '💬', label: 'WhatsApp', value: '+964 772 944 4377', link: 'https://wa.me/9647729444377' },
-    { icon: '🔗', label: 'LinkedIn', value: 'linkedin.com/in/camilleschori', link: 'https://linkedin.com/in/camilleschori' },
-    { icon: '🐙', label: 'GitHub', value: 'github.com/camilleschori', link: 'https://github.com/camilleschori' },
-    { icon: '🐦', label: 'Twitter', value: '@camilleschori', link: 'https://twitter.com/camilleschori' },
-    { icon: '📸', label: 'Instagram', value: '@camilleschori', link: 'https://instagram.com/camilleschori' },
-    { icon: '📘', label: 'Facebook', value: 'facebook.com/camilleschori', link: 'https://facebook.com/camilleschori' },
+    { icon: MdEmail, label: 'Email', value: 'info@camilleschori.com', link: 'mailto:info@camilleschori.com', color: '#EA4335' },
+    { icon: MdPhone, label: 'Phone', value: '+964 772 944 4377', link: 'tel:+9647729444377', color: '#34A853' },
+    { icon: MdLocationOn, label: 'Location', value: 'Erbil, Kurdistan, Iraq', link: null, color: '#4285F4' },
+    { icon: FaWhatsapp, label: 'WhatsApp', value: '+964 772 944 4377', link: 'https://wa.me/9647729444377', color: '#25D366' },
+    { icon: FaLinkedin, label: 'LinkedIn', value: 'linkedin.com/in/camilleschori', link: 'https://linkedin.com/in/camilleschori', color: '#0A66C2' },
+    { icon: FaGithub, label: 'GitHub', value: 'github.com/camilleschori', link: 'https://github.com/camilleschori', color: '#f0f6fc' },
+    { icon: FaTwitter, label: 'Twitter', value: '@camilleschori', link: 'https://twitter.com/camilleschori', color: '#1DA1F2' },
+    { icon: FaInstagram, label: 'Instagram', value: '@camilleschori', link: 'https://instagram.com/camilleschori', color: '#E4405F' },
+    { icon: FaFacebookF, label: 'Facebook', value: 'facebook.com/camilleschori', link: 'https://facebook.com/camilleschori', color: '#1877F2' },
   ]
 
   const handleNavClick = () => setMenuOpen(false)
@@ -399,7 +401,7 @@ function App() {
 
           <div className="about-grid">
             <div className="about-image-wrapper">
-              <img src="/me.png" alt="Camille Schori — Full-Stack Developer" />
+              <img src="/me.webp" alt="Camille Schori — Full-Stack Developer" />
             </div>
             <div className="about-content">
               <p className="about-text">
@@ -568,8 +570,8 @@ function App() {
 
           <div className="tech-tags">
             {techStack.map((t, i) => (
-              <div className="tech-tag" key={i}>
-                <span className="tech-tag-icon">{t.icon}</span>
+              <div className="tech-tag" key={i} style={{ '--tech-color': t.color }}>
+                <span className="tech-tag-icon" />
                 <span className="tech-tag-name">{t.name}</span>
               </div>
             ))}
@@ -604,13 +606,13 @@ function App() {
                     target={c.link.startsWith('http') ? '_blank' : undefined}
                     rel={c.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                   >
-                    <div className="contact-card-icon">{c.icon}</div>
+                    <div className="contact-card-icon" style={{ color: c.color }}><c.icon /></div>
                     <div className="contact-card-label">{c.label}</div>
                     <div className="contact-card-value">{c.value}</div>
                   </a>
                 ) : (
                   <div key={i} className="contact-card">
-                    <div className="contact-card-icon">{c.icon}</div>
+                    <div className="contact-card-icon" style={{ color: c.color }}><c.icon /></div>
                     <div className="contact-card-label">{c.label}</div>
                     <div className="contact-card-value">{c.value}</div>
                   </div>
