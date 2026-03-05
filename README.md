@@ -42,17 +42,19 @@ I'm also the **Founder & CEO of [CS-SOFT](https://cs-soft.dev/)** — a software
 ## GitHub Stats
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=camilleschori&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=camilleschori&theme=tokyonight" width="95%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=camilleschori&theme=tokyonight" height="160em" />
   &nbsp;
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=camilleschori&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff&langs_count=6" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=camilleschori&theme=tokyonight" height="160em" />
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=camilleschori&theme=tokyonight" height="160em" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=camilleschori&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff6b35&currStreakLabel=00d9ff" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=camilleschori&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&radius=6" width="95%" />
 </p>
 
 ---
@@ -62,9 +64,9 @@ I'm also the **Founder & CEO of [CS-SOFT](https://cs-soft.dev/)** — a software
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,sass,js,react,bootstrap,jquery&theme=dark&perline=7" /><br/>
-    <img src="https://skillicons.dev/icons?i=php,laravel,reactnative,nodejs,expo&theme=dark&perline=7" /><br/>
+    <img src="https://skillicons.dev/icons?i=php,laravel,nodejs&theme=dark&perline=7" /><br/>
     <img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase&theme=dark&perline=7" /><br/>
-    <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,postman&theme=dark&perline=7" />
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma&theme=dark&perline=7" />
   </a>
 </p>
 
