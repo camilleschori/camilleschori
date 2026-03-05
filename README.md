@@ -1,110 +1,225 @@
-# 👋 Hi, I'm Camille Schori
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Camille+Schori+%F0%9F%91%8B;Full-Stack+Developer+%7C+10%2B+Years;Founder+%26+CEO+of+CS-SOFT;Code+it.+Ship+it.+Make+it+matter." alt="Typing SVG" />
+</p>
 
-**Full-Stack Developer | Web & Mobile Applications | Based in Iraq**
-
-I’m a passionate full-stack developer focused on building scalable, user-centric software solutions tailored for small businesses. From front-end magic to back-end logic, I strive to deliver efficient, modern applications that drive real results. Always learning, always coding, always creating.
-
----
-
-## 🛠️ Tech Stack
-
-**Languages & Frameworks**  
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-F55247?style=flat&logo=laravel&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-
-**Tools & Databases**  
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
-![Ajax](https://img.shields.io/badge/Ajax-25A162?style=flat)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-
-**Platforms**  
-🖥️ Web Development  
-📱 Mobile App Development
+<p align="center">
+  <a href="https://camilleschori.com"><img src="https://img.shields.io/badge/Portfolio-camilleschori.com-00D9FF?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/camilleschori"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/camilleschori"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:info@camilleschori.com"><img src="https://img.shields.io/badge/Email-info@camilleschori.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 
 ---
 
-## 💼 Experience
+## About Me
 
-- **Freelance Full-Stack Developer**  
-  *Aug 2015 – Present*
+I'm a **Full-Stack Developer** based in **Erbil, Kurdistan, Iraq**, with **10+ years** of hands-on experience building web and mobile applications. I work across the entire stack — from pixel-perfect frontends to scalable backend architectures — crafting digital products that solve real problems and drive measurable growth.
 
-- **Alnimaa Scientific Bureau**  
-  *Full-Stack Developer & Social Media Marketing Manager*  
-  *Jan 2021 – Present*
+I'm also the **Founder & CEO of [CS-SOFT](https://cs-soft.dev/)** — a software company delivering custom digital solutions for businesses across Iraq and worldwide.
 
-- **CIS College-Erbil**  
-  *Lecturer*  
-  *Jan 2021 – Present*
-
-- **Villa Real Estate Co.**  
-  *Digital Marketing & Programmer*  
-  *Jul 2023 – Present*
-
-- **Black Layer Co.**  
-  *Full-Stack Developer*  
-  *May 2022 – Present*
-
-- **Avocado Franchise**  
-  *Full-Stack Developer*  
-  *May 2023 – Jun 2023*
+```json
+{
+  "name": "Camille Schori",
+  "role": "Full-Stack Developer",
+  "location": "Erbil, Kurdistan, Iraq",
+  "experience": "10+ years",
+  "company": "CS-SOFT (Founder & CEO)",
+  "projects_delivered": "34+",
+  "languages": ["Arabic (Native)", "English (Professional)", "Turkish (Limited)", "Kurdish"]
+}
+```
 
 ---
 
-## 🎓 Education & Certifications
+## Stats at a Glance
 
-- 🎓 **Salahaddin University-Erbil**  
-  *Bachelor's in Banking, Corporate, Finance, and Securities Law*  
-  *2015 – 2019*
-
-- 📜 **Udacity**  
-  *Front-End Development Track Certificate*  
-  *Issued May 2019*
+| 🚀 Projects Delivered | 🌍 Markets Served | 📅 Years of Experience | 🕐 Support |
+|:---:|:---:|:---:|:---:|
+| **34+** | Iraq · Turkey · UK · US | **10+** | **24/7** |
 
 ---
 
-## 🚀 Featured Projects
+## GitHub Stats
 
-Here are a few standout projects I've worked on:
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=camilleschori&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=camilleschori&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff&langs_count=8" />
+</p>
 
-- **Sales & Tracking System** – *Smart Bureau (Baghdad, Iraq)*
-- **Mobile App** – *Mukamilati (Baghdad, Iraq)*
-- **Website & Mobile App** – *Baab Real Estate (Baghdad, Iraq)*
-- **POS System** – *Al-Emaar Construction Company (Erbil, Iraq)*
-- **Lab Management System** – *Alnoor-Lab (Anbar, Iraq)*
-- **Website** – *Villa Real Estate (Erbil, Iraq)*
-- **POS System** – *Serince Çiğ Köfte (Yozgat, Turkey)*
-- **POS System** – *Alawael Restaurant (Mosul, Iraq)*
-- **POS System** – *Center Ghuson Phone (Erbil, Iraq)*
-- **E-Commerce Website** – *Bethoon Store (Dubai)*
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=camilleschori&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff6b35&currStreakLabel=00d9ff" />
+</p>
 
----
-
-## 📬 Let's Connect
-
-I’m open to freelance gigs, collaborations, or just a tech talk. Feel free to reach out!
-
-- 📧 Email: [info@camilleschori.com](mailto:info@camilleschori.com)  
-- 📱 Phone: +964 772 944 4377  
-- 🌐 Website: [camilleschori.com](https://camilleschori.com)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=camilleschori&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true" />
+</p>
 
 ---
 
-## 🌐 Social Profiles
+## Tech Stack
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/camilleschori)  
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/camilleschori)  
-[![Twitter](https://img.shields.io/badge/Twitter-@camilleschori-1DA1F2?logo=twitter)](https://twitter.com/camilleschori)  
-[![Instagram](https://img.shields.io/badge/Instagram-@camilleschori-E4405F?logo=instagram)](https://www.instagram.com/camilleschori)  
-[![Facebook](https://img.shields.io/badge/Facebook-Profile-1877F2?logo=facebook)](https://www.facebook.com/camilleschori)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,react,bootstrap,jquery&theme=dark&perline=7" /><br/>
+    <img src="https://skillicons.dev/icons?i=php,laravel,reactnative,nodejs,expo&theme=dark&perline=7" /><br/>
+    <img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase&theme=dark&perline=7" /><br/>
+    <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,postman&theme=dark&perline=7" />
+  </a>
+</p>
+
+<details>
+<summary><b>⚡ Skill Breakdown</b></summary>
+<br/>
+
+**Frontend**
+
+| Skill | Proficiency |
+|---|---|
+| HTML5 / CSS3 / SASS | `████████████████████` 100% |
+| JavaScript | `███████████████████░` 95% |
+| React.js | `██████████████████░░` 90% |
+| Bootstrap / Responsive Design | `████████████████████` 100% |
+| jQuery / AJAX | `███████████████████░` 95% |
+
+**Backend & Mobile**
+
+| Skill | Proficiency |
+|---|---|
+| PHP | `███████████████████░` 95% |
+| Laravel | `██████████████████░░` 90% |
+| React Native | `█████████████████░░░` 85% |
+| Expo | `████████████████░░░░` 80% |
+
+**Databases & APIs**
+
+| Skill | Proficiency |
+|---|---|
+| MySQL | `███████████████████░` 95% |
+| MongoDB | `████████████████░░░░` 80% |
+| Firebase / Firestore | `█████████████████░░░` 85% |
+| REST APIs / JSON | `███████████████████░` 95% |
+
+</details>
+
+---
+
+## Services
+
+| Service | Description |
+|---|---|
+| 🌐 **Web Development** | Full-stack web solutions — React, Laravel, responsive & fast |
+| 📱 **Mobile Apps** | Cross-platform iOS & Android apps with React Native |
+| ⚙️ **Enterprise Systems** | POS, HR, CRM, inventory — tailored to your workflow |
+| 🗄️ **Database & APIs** | MySQL, MongoDB, Firebase — REST APIs & system integration |
+| 🎨 **UI/UX Design** | Pixel-perfect, user-centered interfaces |
+| 🤝 **Consulting & Support** | Code reviews, technical consulting, 24/7 ongoing support |
+
+---
+
+## Experience
+
+- **Founder & CEO — [CS-SOFT](https://cs-soft.dev/)**
+- **Full-Stack Developer** — Self-employed *(Aug 2015 – Present)*
+- **Full Stack Developer — CIS Group-Iraq** *(Feb 2025 – Present)*
+- **Web Department Manager & Full Stack Developer — Sky Control LLC.** *(Jun 2024 – Sep 2025)*
+- **Social Media Marketing Manager — Alor Company** *(Nov 2023 – Oct 2024)*
+- **Digital Marketing — Villa Real Estate Co.** *(Jul 2023 – Jul 2024)*
+- **Full-Stack Developer — Alnimaa Scientific Bureau** *(Jan 2021 – Jun 2024)*
+- **Lecturer — CIS College-Erbil** *(Aug 2021 – May 2024)*
+- **Full-Stack Developer — Black Layer Co.** *(May 2022 – Jan 2023)*
+- **Full-Stack Developer — Avocado Franchise** *(May 2023 – Jun 2023)*
+
+---
+
+## Education & Certifications
+
+- **Salahaddin University-Erbil**  
+  *Bachelor's in Banking, Corporate, Finance & Securities Law — 2015–2019*
+
+- **Udacity**  
+  *Front-End Development Track Certificate — Issued May 2019*
+
+---
+
+## Featured Projects
+
+> 34+ projects delivered across Iraq, Turkey, the UK, and the United States.
+
+<p align="center">
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22%E2%9A%99%EF%B8%8F%20Systems%20(11)%22%2C%22%F0%9F%8C%90%20Websites%20(15)%22%2C%22%F0%9F%93%B1%20Mobile%20Apps%20(8)%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B11%2C15%2C8%5D%2C%22backgroundColor%22%3A%5B%22%2300d9ff%22%2C%22%23ff6b35%22%2C%22%237c3aed%22%5D%2C%22borderWidth%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22labels%22%3A%7B%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A14%7D%7D%7D%7D%7D%7D&backgroundColor=%230d1117&width=400&height=280" alt="Projects Breakdown" />
+  &nbsp;&nbsp;
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Iraq%22%2C%22Turkey%22%2C%22UK%22%2C%22US%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Projects%22%2C%22data%22%3A%5B28%2C2%2C1%2C4%5D%2C%22backgroundColor%22%3A%5B%22%2300d9ff%22%2C%22%23ff6b35%22%2C%22%237c3aed%22%2C%22%2322c55e%22%5D%2C%22borderRadius%22%3A6%2C%22borderWidth%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Afalse%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Projects%20by%20Country%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A14%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23ffffff%22%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23ffffff%22%7D%2C%22grid%22%3A%7B%22color%22%3A%22%23ffffff22%22%7D%7D%7D%7D%7D&backgroundColor=%230d1117&width=400&height=280" alt="Projects by Country" />
+</p>
+
+### Systems & Enterprise
+| Project | Type | Location |
+|---|---|---|
+| TendySystem | Restaurant POS & Order Management | Mosul, Iraq |
+| CIS HR | HR, Payroll & Attendance System | Erbil, Iraq |
+| Erbil View Hotel | Hotel Reservation & Booking System | Erbil, Iraq |
+| Alnoor Lab | Patient & Appointment Management | Anbar, Iraq |
+| HotIQDeals | Sales & Inventory Management | Erbil, Iraq |
+| Alaemar Shop | Sales & Warehouse Management | Erbil, Iraq |
+| Center Ghuson Phone | POS & Customer Management | Erbil, Iraq |
+| Serince Çiğ Köfte | Restaurant POS | Yozgat, Turkey |
+| Al-Awael Restaurant | Restaurant POS & Inventory | Mosul, Iraq |
+| Just BBQ Restaurant | Restaurant POS & Menu System | Erbil, Iraq |
+| Gantha Dbghdeda | Restaurant POS | Mosul, Iraq |
+
+### Mobile Apps
+| Project | Type | Location |
+|---|---|---|
+| GoGenie | Travel & Tourism Guide | Erbil, Iraq |
+| Alkhatuna | E-Commerce Shopping App | Baghdad, Iraq |
+| LiveTaxi | Taxi Booking & Tracking | Erbil, Iraq |
+| iRental | Car Rental & Booking | Erbil, Iraq |
+| Mademoiselle | Warehouse Management | Erbil, Iraq |
+| Mamosta Aza | Educational Courses | London, UK |
+| Drinksify | Beverages Delivery | Erbil, Iraq |
+| Ushbakhana | E-Commerce Shopping | Baghdad, Iraq |
+
+### Websites
+| Project | Type | Location |
+|---|---|---|
+| CIS Iraq | Educational Institution Website | Erbil, Iraq |
+| CIS Training Center | Training Programs Website | Erbil, Iraq |
+| Villa Realestate | Real Estate Website | Erbil, Iraq |
+| Mahroos Group | Corporate Website | Erbil, Iraq |
+| Vibe Innovative Agency | Creative Agency Website | United States |
+| Loran Global | Global Corporate Website | Erbil, Iraq |
+| Vuitton Salon | Beauty Salon Website | United States |
+| Troy Gate | Corporate Website | Baghdad, Iraq |
+| Azar Foundation | Foundation Website | United States |
+| Printhub | Printing Services Website | United States |
+| PrintZone | Printing Company Website | Erbil, Iraq |
+| Avocado Franchise | Product Showcase | Erbil, Iraq |
+| Gustoso Pizza | Restaurant Showcase | Erbil, Iraq |
+| Nutritionist Issa Slomi | Doctor Introduction Website | Baghdad, Iraq |
+| St Ibrahim Arbili | Management System Website | Erbil, Iraq |
+
+---
+
+## Let's Connect
+
+I'm open to freelance gigs, collaborations, partnerships, or just a good tech conversation.
+
+- **Email:** [info@camilleschori.com](mailto:info@camilleschori.com)
+- **Phone / WhatsApp:** [+964 772 944 4377](https://wa.me/9647729444377)
+- **Website:** [camilleschori.com](https://camilleschori.com)
+- **Location:** Erbil, Kurdistan, Iraq
+
+---
+
+## Social Profiles
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-camilleschori-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/camilleschori)
+[![GitHub](https://img.shields.io/badge/GitHub-camilleschori-181717?style=flat&logo=github)](https://github.com/camilleschori)
+[![Twitter](https://img.shields.io/badge/Twitter-@camilleschori-1DA1F2?style=flat&logo=twitter)](https://twitter.com/camilleschori)
+[![Instagram](https://img.shields.io/badge/Instagram-@camilleschori-E4405F?style=flat&logo=instagram)](https://www.instagram.com/camilleschori)
+[![Facebook](https://img.shields.io/badge/Facebook-camilleschori-1877F2?style=flat&logo=facebook)](https://www.facebook.com/camilleschori)
 
 ---
 
 <p align="center">
-  <em>💻 Built with passion & purpose — 2025 Camille Schori</em>
+  <em>Built with passion & purpose — Camille Schori © 2026</em>
 </p>
