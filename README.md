@@ -42,16 +42,17 @@ I'm also the **Founder & CEO of [CS-SOFT](https://cs-soft.dev/)** — a software
 ## GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=camilleschori&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=camilleschori&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff&langs_count=8" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=camilleschori&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff" />
+  &nbsp;
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=camilleschori&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff&langs_count=6" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=camilleschori&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff6b35&currStreakLabel=00d9ff" />
+  <img src="https://streak-stats.demolab.com?user=camilleschori&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff6b35&currStreakLabel=00d9ff" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=camilleschori&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=camilleschori&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&radius=6" width="95%" />
 </p>
 
 ---
@@ -146,9 +147,9 @@ I'm also the **Founder & CEO of [CS-SOFT](https://cs-soft.dev/)** — a software
 > 34+ projects delivered across Iraq, Turkey, the UK, and the United States.
 
 <p align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22%E2%9A%99%EF%B8%8F%20Systems%20(11)%22%2C%22%F0%9F%8C%90%20Websites%20(15)%22%2C%22%F0%9F%93%B1%20Mobile%20Apps%20(8)%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B11%2C15%2C8%5D%2C%22backgroundColor%22%3A%5B%22%2300d9ff%22%2C%22%23ff6b35%22%2C%22%237c3aed%22%5D%2C%22borderWidth%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22labels%22%3A%7B%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A14%7D%7D%7D%7D%7D%7D&backgroundColor=%230d1117&width=400&height=280" alt="Projects Breakdown" />
+  <img width="340" src="https://quickchart.io/chart?c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Systems%20(11)%22%2C%22Websites%20(15)%22%2C%22Mobile%20Apps%20(8)%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B11%2C15%2C8%5D%2C%22backgroundColor%22%3A%5B%22%2300d9ff%22%2C%22%23ff6b35%22%2C%22%237c3aed%22%5D%2C%22borderWidth%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22labels%22%3A%7B%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A13%7D%7D%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Projects%20by%20Type%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A14%7D%7D%7D%7D%7D&backgroundColor=%230d1117&width=320&height=220" alt="Projects by Type" />
   &nbsp;&nbsp;
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Iraq%22%2C%22Turkey%22%2C%22UK%22%2C%22US%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Projects%22%2C%22data%22%3A%5B28%2C2%2C1%2C4%5D%2C%22backgroundColor%22%3A%5B%22%2300d9ff%22%2C%22%23ff6b35%22%2C%22%237c3aed%22%2C%22%2322c55e%22%5D%2C%22borderRadius%22%3A6%2C%22borderWidth%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Afalse%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Projects%20by%20Country%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A14%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23ffffff%22%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23ffffff%22%7D%2C%22grid%22%3A%7B%22color%22%3A%22%23ffffff22%22%7D%7D%7D%7D%7D&backgroundColor=%230d1117&width=400&height=280" alt="Projects by Country" />
+  <img width="340" src="https://quickchart.io/chart?c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Iraq%22%2C%22Turkey%22%2C%22UK%22%2C%22US%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Projects%22%2C%22data%22%3A%5B28%2C2%2C1%2C4%5D%2C%22backgroundColor%22%3A%5B%22%2300d9ff%22%2C%22%23ff6b35%22%2C%22%237c3aed%22%2C%22%2322c55e%22%5D%2C%22borderRadius%22%3A6%2C%22borderWidth%22%3A0%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Afalse%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Projects%20by%20Country%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22size%22%3A14%7D%7D%7D%2C%22scales%22%3A%7B%22x%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23ffffff%22%7D%2C%22grid%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22y%22%3A%7B%22ticks%22%3A%7B%22color%22%3A%22%23ffffff%22%7D%2C%22grid%22%3A%7B%22color%22%3A%22%23333%22%7D%7D%7D%7D%7D&backgroundColor=%230d1117&width=320&height=220" alt="Projects by Country" />
 </p>
 
 ### Systems & Enterprise
